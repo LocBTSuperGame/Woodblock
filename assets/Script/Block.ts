@@ -7,6 +7,5 @@ export class Block extends Component {
     position: Vec3 = new Vec3(0, 0, 0);
 
     start() {
-        this.node.setPosition(this.position);
     }
 }
